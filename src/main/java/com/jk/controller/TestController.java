@@ -11,6 +11,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class TestController {
 
+    @RequestMapping("/wod")
+    public void  wod(){
+
+    }
+
     @RequestMapping("/hello")
     public void hello(){
 
